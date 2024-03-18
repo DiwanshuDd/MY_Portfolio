@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="syle.css">
+    <script src="https://kit.fontawesome.com/6d1009284f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Screenshot 2024-03-14 023923.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text"></div>
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Diwanshu</span><br>Dhaygude From India</h1>
+        </div>
+        
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/a.jpg" alt="">
+               </div>
+               <div class="about-col-2">
+                <h1 clas="sub-title">About Me</h1>
+                <p>
+                    With a robust background in software development, I am adept at crafting scalable and efficient solutions to complex problems. My expertise spans various technologies, including web and mobile development. Passionate about innovation, I thrive on challenges and consistently strive for excellence, delivering high-quality software products that exceed expectations.</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('experince')">Experience</p>
+                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Software Developer</span><br>Designing Software Applications</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Django Preducate</span><br> For Back-End Purpose</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experince">
+                    <ul>
+                        <li><span>29th Jan 2024 - Current</span><br>Internship at Moreyeahs Pvt Limited as a Software Trainee</li>
+                        <li><span>Summer Internship</span><br>AWS & CLOUD</li>
+                         
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B-Tech From Medicaps University Indore.</li>
+                        <li><span>2020</span><br>12th Grade From The Prime Academy.</li>
+                        <li><span>2018</span><br>10th Grade From The Prime Academy.</li>
+                    </ul>
+                 </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 clas="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Application Development</h2>
+                    <p>Django provides a robust framework for building web applications, including support for handling HTTP requests, routing URLs, rendering templates, and managing user sessions.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Create and Manage Databases:</h2>
+                    <p>SQL allows you to create and manage databases, including creating new databases, deleting databases, and altering database properties.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Data Analysis and Visualization: </h2>
+                    <p> Python's rich ecosystem of libraries such as Pandas, NumPy, Matplotlib, and Seaborn make it ideal for data analysis, manipulation, and visualization tasks. You can analyze large datasets, perform statistical analysis, and create visualizations to gain insights from data.</p>
+                    <a href="">Learn more</a>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+                   <!-- PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 clas="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/Screenshot 2024-03-14 223457.png">
+                    <div class="layer">
+                        <h3>Face Recognition</h3>
+                        <p>
+                            "Identifying individuals through facial features using advanced computer algorithms."</p>
+                             <a href=""><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot 2024-03-14 223825.png">
+                    <div class="layer">
+                        <h3>Employee Management App</h3>
+                        <p>
+                           
+"Streamline HR tasks, scheduling, and communication for efficient workforce management."</p>
+                             <a href=""><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Screenshot 2024-03-14 224447.png">
+                    <div class="layer">
+                        <h3>Surveillance App</h3>
+                        <p>
+                           
+
+                            "Monitor locations remotely, ensuring security through advanced surveillance technology."</p>
+                             <a href=""><i class="fa-duotone fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+                  <!-- CONTACT  ME -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class=""sub-title>Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> diwanshudhaygude7@gmail.com</p>
+                    <p><i class="fa-duotone fa-phone-volume"></i> 6261891273</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/diwanshu.dhaygude?mibextid=rS40aB7S9Ucbxw6v"><i class="fa-brands fa-facebook"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-twitter"></i></a> -->
+                        <a href="https://www.linkedin.com/in/diwanshu-dhaygude-23a92125b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/diwanshu_dhaygude?igsh=ODdmYmZrY2MyOWVj"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright Class <i class="fa-solid fa-heart"></i> Protecting Creative Works</p>
+        </div>
+    </div>
+    <script>
+        // Use getElementsByClassName() instead of getElementByClassName() (missing 's')
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        // Add event parameter to the function declaration
+        function opentab(tabname) {
+            // Use for...of loop with 'var' to declare the loop variable
+            for ( tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            // 'event' should be passed to the function as a parameter
+            event.currentTarget.classList.add("active-link");
+            // Use getElementById() instead of getElementByClassName() (missing 's')
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = documnt.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzolRymH---GUmdVD68AcRxdoxDePIH4NVw1T12fEWb1ValWeddytLUdoRjapdnVkKGSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+     
+    
+</body>
+</html>
